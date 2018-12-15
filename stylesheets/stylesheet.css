@@ -16,6 +16,10 @@ Theme Styles
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+}
+
 body {
   color:#373737;
   background: #212121;
