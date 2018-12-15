@@ -307,7 +307,7 @@ Full-Width Styles
 #main_content {
   padding-top: 40px;
   padding-bottom: 40px;
-
+  min-height: 600px;
 }
 
 #footer_wrap {
@@ -366,6 +366,10 @@ Small Device Styles
     font-size: 11px;
   }
 }
+.img-ss{
+  width: 100%;
+  display: block;
+}
 
 #nav li{
   display: inline;
@@ -377,7 +381,7 @@ Small Device Styles
 
 #nav li a{
   text-decoration: none;
-    padding: 5px 25px;
+    padding: 5px 10px;
     background-color: #0090ff;
     color: white;
     margin: 0px;
