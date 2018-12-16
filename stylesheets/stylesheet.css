@@ -71,11 +71,12 @@ p {
 
 footer p {
   color: #f2f2f2;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: #007edf;
+  color:#222222;
   text-shadow: none;
 }
 
@@ -311,8 +312,20 @@ Full-Width Styles
   min-height: 600px;
 }
 
+.indent {
+  text-indent: 40px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
 #footer_wrap {
   background: #212121;
+}
+
+.work-info img{
+  width: 100%;
 }
 
 /*******************************************************************************
@@ -386,4 +399,32 @@ Small Device Styles
     background-color: #0090ff;
     color: white;
     margin: 0px;
+}
+
+@media(max-width: 320px){
+  #nav li a {
+      padding: 5px 5px;
+      font-size: 12px;
+  }
+}
+
+.tb-resp{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.tb-resp p {
+  width: max-content;
+}
+
+.tb-resp img{
+  width: 40px;
+}
+
+.tb-clean{
+  border: none;
+}
+.tb-clean td{
+  border: none;
+  padding: 2px 15px;
 }
