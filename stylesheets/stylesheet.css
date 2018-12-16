@@ -401,7 +401,7 @@ Small Device Styles
     margin: 0px;
 }
 
-@media(max-width: 360px){
+@media(max-width: 410px){
   #nav li a {
       padding: 5px 5px;
       font-size: 12px;
